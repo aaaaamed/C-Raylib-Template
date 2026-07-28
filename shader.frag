@@ -21,11 +21,11 @@ out vec4 finalColor;
 uniform vec2 resolution; // Screen resolution
 
 // --- CRT Shader Parameters ---
-const float hardScan = -8.0;    // -8.0 = soft, -16.0 = medium
-const float hardPix  = -3.0;    // -2.0 to -4.0
-const vec2  warp     = vec2(1.0/32.0, 1.0/24.0); // 0 = none, 1.0/8.0 = extreme
-const float maskDark = 0.9;     // 0.5 to 1.0
-const float maskLight= 1.1;     // 1.5 to 2.5
+const float hardScan  = -8.0;    // -8.0 = soft, -16.0 = medium
+const float hardPix   = -3.0;    // -2.0 to -4.0
+const vec2  warp      = vec2(1.0/32.0, 1.0/24.0); // 0 = none, 1.0/8.0 = extreme
+const float maskDark  = 0.9;     // 0.5 to 1.0
+const float maskLight = 1.1;     // 1.5 to 2.5
 
 // --- CRT Functions ---
 

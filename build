@@ -1,6 +1,0 @@
-#! /bin/bash
-
-gcc main.c -o main \
-    -I./include \
-    -L./lib \
-    -lraylib -lGL -lm -lpthread -ldl -lrt -lX11

@@ -1,6 +1,0 @@
-#! /bin/bash
-
-x86_64-w64-mingw32-gcc main.c -o main.exe \
-    -I./include \
-    -L./winlib \
-    -lraylib -lgdi32 -lwinmm -lopengl32 -static -Wl,-Bstatic
